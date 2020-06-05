@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Start pagina</title>
+</head>
+<body>
+<header>
+    <!-- <a href="index.html"><img id="backbutton" src="./images/pijltjelinks.png" alt="backbutton"></a> -->
+    <img id="logo" src="../static/images/logo.png" alt="logo luvely">
+</header>
+<main class="normalmain">
+    <form action="resultaten.html" method="POST">
+        <div class="form">
+            <h1> What are you looking for?</h1>
+            <fieldset class="fieldGender ">
+                <legend>Gender:</legend>
+                <input type="radio" class="radio" id="men" name="gender" value="men">
+                <label class="label" for="men">Men</label>
+                <input type="radio" class="radio" id="women" name="gender" value="women">
+                <label class="label" for="women">Women</label>
+                <img src="./images/nextbutton.png" width="0" class="nextbutton genderButton" alt="next button">
+            </fieldset>
+            <fieldset class="fieldSexuality innactive">
+                <legend>Sexuality:</legend>
+                <input type="radio" class="radio" id="straight" name="sexuality" value="straight">
+                <label class="label" for="straight">Straight</label>
+                <input type="radio" class="radio" id="gay" name="sexuality" value="gay">
+                <label class="label" for="gay">Gay</label>
+                <input type="radio" class="radio" id="bi" name="sexuality" value="bi-sexual">
+                <label class="label" for="bi">Bi-sexual</label>
+                <div class="submitButton">
+                    <input class="nextbutton filterButton"  type="submit" value="Filter!" >
+                </div>
+            </fieldset>
+        </div>
+    </form>
+    
+</main>
+
+<footer>
+
+</footer>
+
+<!-- <script src="./scripts/discloseure.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/form.js"></script>
+<script src="./scripts/filter.js"></script> -->
+</body>
+</html>
